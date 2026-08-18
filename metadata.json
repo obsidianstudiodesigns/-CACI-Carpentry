@@ -1,0 +1,6 @@
+{
+  "name": "CACI Carpentry",
+  "description": "Custom-built cupboards, modern fitted kitchens, TV units, luxury wardrobes, and bespoke carpentry in Klipgat.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

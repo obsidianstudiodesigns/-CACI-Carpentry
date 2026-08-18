@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    scroll-behavior: smooth;
+  }
+}
+
+.font-serif-heading {
+  font-family: 'Cinzel', serif;
+}
+
+.font-editorial {
+  font-family: 'Playfair Display', serif;
+}
+
+.text-gold-gradient {
+  background: linear-gradient(135deg, #F6E27A 0%, #D4AF37 40%, #AA771C 75%, #F4E285 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-gold-gradient {
+  background: linear-gradient(135deg, #D4AF37 0%, #F3E082 50%, #B8860B 100%);
+}
+
+.border-gold-gradient {
+  border-image: linear-gradient(to right, #B8860B, #F6E27A, #B8860B) 1;
+}
+
+.gold-glow {
+  box-shadow: 0 0 35px -5px rgba(212, 175, 55, 0.25);
+}
+
+.gold-glow-subtle {
+  box-shadow: 0 0 20px -3px rgba(212, 175, 55, 0.15);
+}
