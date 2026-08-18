@@ -40,14 +40,6 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           {/* Main Hero Copy Column */}
           <div className="lg:col-span-7 space-y-7 text-left">
-            {/* Top Brand Pill */}
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-neutral-900/90 border border-amber-500/40 backdrop-blur-md shadow-lg">
-              <span className="w-2 h-2 rounded-full bg-amber-400 animate-ping" />
-              <span className="text-xs font-semibold text-amber-300 tracking-wider uppercase">
-                Premier Custom Carpentry • Klipgat
-              </span>
-            </div>
-
             {/* Main Headline */}
             <div className="space-y-3">
               <p className="text-xs sm:text-sm font-semibold tracking-[0.25em] text-neutral-300 uppercase">

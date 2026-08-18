@@ -47,45 +47,10 @@ export const Navbar: React.FC<NavbarProps> = ({
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? 'bg-neutral-950/90 backdrop-blur-md border-b border-amber-500/20 shadow-2xl py-2.5'
+          ? 'bg-neutral-950/90 backdrop-blur-md border-b border-amber-500/20 shadow-2xl py-3'
           : 'bg-gradient-to-b from-neutral-950/95 via-neutral-950/70 to-transparent py-4'
       }`}
     >
-      {/* Top micro bar with contact info */}
-      <div className="hidden lg:block border-b border-neutral-800/60 pb-2 mb-2">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center text-xs text-neutral-400">
-          <div className="flex items-center gap-6">
-            <div className="flex items-center gap-1.5 text-amber-300/90">
-              <MapPin className="w-3.5 h-3.5 text-amber-400 flex-shrink-0" />
-              <span>{COMPANY_DETAILS.location}</span>
-            </div>
-            <div className="flex items-center gap-1.5">
-              <ShieldCheck className="w-3.5 h-3.5 text-amber-400" />
-              <span>Quality Workmanship • Modern Designs • Lasting Impressions</span>
-            </div>
-          </div>
-          <div className="flex items-center gap-5">
-            <a
-              href={COMPANY_DETAILS.phoneHref}
-              className="flex items-center gap-1.5 hover:text-amber-300 transition-colors"
-            >
-              <Phone className="w-3.5 h-3.5 text-amber-400" />
-              <span>Call: <strong className="text-neutral-200 font-semibold">{COMPANY_DETAILS.phone}</strong></span>
-            </a>
-            <span className="text-neutral-700">|</span>
-            <a
-              href={COMPANY_DETAILS.whatsappHref}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-1.5 text-emerald-400 hover:text-emerald-300 transition-colors font-medium"
-            >
-              <MessageCircle className="w-3.5 h-3.5 fill-emerald-500/20 text-emerald-400" />
-              <span>WhatsApp: <strong className="text-emerald-300">{COMPANY_DETAILS.whatsapp}</strong></span>
-            </a>
-          </div>
-        </div>
-      </div>
-
       {/* Main Navbar Header */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
